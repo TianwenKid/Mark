@@ -26,7 +26,7 @@ class Handler:
             return result
         return substitution
 
-class HTMLRenderer(Hander):
+class HTMLRenderer(Handler):
 
     def start_document(self):
         print('<html><head><title>...</title></head><body>')
